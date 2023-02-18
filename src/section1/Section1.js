@@ -4,7 +4,7 @@ import SectionCont from './SectionCont'
 
 const Section1 = () => {
   return (
-    <div className=' w-full  flex items-center bg-Sectop1-bg bg-cover flex-col h-[100vh] bg-right-top bg-no-repeat'>
+    <div className=' w-full  flex items-center bg-Section1-bg bg-cover flex-col h-[100vh] bg-right-top bg-no-repeat'>
       <Header />
       <SectionCont />
     </div>
