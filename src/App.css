@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    background-color: #ececec;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -18,52 +22,33 @@ a {
 
 
 
-          /* Custom dropdown */
-          .custom-sel a {
-            text-decoration: none;
-            text-transform: uppercase;
-            margin: 0;
-            padding: 10px;
-            text-align: left;
-            font-family: Raleway;
-            color: #546e7a;
-            font-size: 15px;
-            font-weight: 700;
-            line-height: 24px;
-            display: block;
-        }
+.card {
+    background: linear-gradient(68.24deg, #6E61EC -3.47%, #9A8FFF 103.83%);
+}
 
-        .custom-sel a:hover {
-            text-decoration: none;
-            background-color: #EDF0F2;
-            color: #ffffff;
-        }
+.Section5Card {
+    box-shadow: 0px 10px 34px 8px rgba(191, 196, 202, 0.15);
+}
 
-        .custom-sel a.selected {
-            background-color: transparent;
-        }
+.Sec5Content::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 124.66px;
+    height: 142.85px;
+    background: url('./assets/Heart1.svg');
+    left: 20px;
+    top: -110px;
+}
 
-        .custom-sel a.selected:hover {
-            background-color: transparent;
-            color: #546e7a;
-        }
+.Sec5Content::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 152.58px;
+    height: 182.18px;
+    background: url('./assets/Hart2.svg');
+    right: -40px;
+    bottom: -50px;
+}
 
-        .hidden {
-            display: none;
-        }
-
-        .lightblue {
-            color:#03a9f4;
-            margin-left: -4px;
-        }
-
-        .show-sel {
-            background-color: #ffffff;
-            box-shadow: -5px 0px 65px 0px rgba(0, 0, 0, 0.18);
-        }
-
-        .custom-sel {
-            margin: 30px;
-            display: inline-block;
-        }
-        /* Custom dropdown */
